@@ -10,7 +10,7 @@ export default function() {
   return (
     <Card>
       <Card.Header>
-        <h4>SpoVis Controller</h4>
+        <h4>SpoVis Controllersll</h4>
       </Card.Header>
       <Card.Body>
         <Upload />

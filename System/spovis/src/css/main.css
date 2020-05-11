@@ -5,6 +5,12 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+
+/* 隐藏地图水印 */
+.anchorBL {
+  display: none;
+}
+
 /* 设置控制栏样式 */
 .upload {
   margin-top: 14px;
@@ -212,6 +218,11 @@ body {
   font-weight: 500;
   margin-bottom: .5rem;
 }
+
+.card-body {
+  padding: 0.7rem;
+}
+
 .card-text {
   margin-bottom: .25rem;
   line-height: 1.25;
