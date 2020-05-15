@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
-import Pic34 from '../charts/pic3_4.jsx';
 import ToolBar from './toolBar.jsx';
+import HeatMap from '../components/map/heatMap.jsx';
 import MapArea from '../components/map/bmap.jsx';
+import DistributionMap from '../components/map/distributionMap.jsx';
+import VisualizationMap from '../components/map/visualizationMap.jsx';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../css/main.css';
@@ -14,13 +16,17 @@ class Main extends Component {
           <div className='col-12 col-lg-2'>
             <ToolBar />
           </div>
-          <div className='col-12 col-lg-7'>
-            <MapArea />
-            {/* <Pic34 /> */}
+          <div className='col-12 col-lg-3'>
+            <HeatMap />
+            <DistributionMap />
           </div>
-          {/* <div className='col-12 col-lg-4'>
-            <Pic34 />
-          </div> */}
+          <div className='col-12 col-lg-3'>
+            <MapArea />
+            <VisualizationMap />
+          </div>
+          <div className='col-12 col-lg-6'>
+            {/* <MapArea /> */}
+          </div>
         </div>
       </React.Fragment>
     )

@@ -1,23 +1,21 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
-import Upload from '../components/toolbar/upload.jsx';
-import Dimension from '../components/toolbar/dimensions.jsx';
-import SortConfig from '../components/toolbar/sortConfig.jsx';
-import StatisticArea from '../components/toolbar/statisticArea.jsx';
-import CreateChart from '../components/toolbar/createChart.jsx';
+
+import SearchCity from '../components/toolbar/searchCity.jsx';
+import DataImport from '../components/toolbar/dataImport.jsx';
+import MacroPlanning from '../components/toolbar/macroPlanning.jsx';
+import MicroSelecting from '../components/toolbar/microSelecting.jsx';
+import GenerateBtn from '../components/toolbar/generateBtn.jsx';
 
 export default function() {
   return (
     <Card>
-      <Card.Header>
-        <h4>SpoVis Controllersll</h4>
-      </Card.Header>
       <Card.Body>
-        <Upload />
-        <Dimension />
-        <SortConfig />
-        <StatisticArea />
-        <CreateChart />
+        <SearchCity />
+        <DataImport />
+        <MacroPlanning />
+        <MicroSelecting />
+        <GenerateBtn />
       </Card.Body>
     </Card>
   )

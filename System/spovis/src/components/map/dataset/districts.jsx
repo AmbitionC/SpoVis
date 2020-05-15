@@ -1,6 +1,4 @@
 // 边界划分数据
-import React from 'react';
-
 export default function() {
   let areas = [];
 

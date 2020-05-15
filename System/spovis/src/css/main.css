@@ -1,3 +1,5 @@
+@import '~antd/dist/antd.css';
+
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +13,35 @@
   display: none;
 }
 
+.amap-logo{
+  opacity: 0;
+}
+
+.amap-copyright{
+  opacity: 0;
+}
+
 /* 设置控制栏样式 */
+.ant-divider {
+  margin: 10px 0px !important;
+}
+
+.ant-divider-inner-text {
+  font-weight: 350;
+  font-size: 14.5px;
+  padding: 0px 7px;
+}
+
+.input-group-text {
+  font-weight: 300;
+  font-size: 0.8rem;
+}
+
+.form-control {
+  font-weight: 300;
+  font-size: 0.8rem;
+}
+
 .upload {
   margin-top: 14px;
 }
@@ -55,8 +85,8 @@ h4 {
   line-height: 1.1;
 }
 h5 {
-  font-size: .8125rem;
-  font-weight: 500;
+  font-size: .7rem;
+  font-weight: 300;
   line-height: 1.1;
   margin-top: 0;
 }
@@ -72,6 +102,14 @@ body {
   line-height: 1.5;
   background-color: #f5f9fc;
 }
+
+/* Map区域 */
+#l7_amap_div0 {
+  top: 8px !important;
+  height: 290px !important;
+  width: 395px !important;
+}
+
 /********** Home界面 **********/
 .jumbotron {
   background-color: #ffffff;
@@ -220,7 +258,8 @@ body {
 }
 
 .card-body {
-  padding: 0.7rem;
+  padding: 0.2rem 0.2rem;
+  margin: 0.3rem;
 }
 
 .card-text {
