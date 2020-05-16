@@ -51,7 +51,7 @@ class MapArea extends Component {
     return (
       <Card>
         <Card.Body>
-          <div id="districtsMap" style={{top: '10px', height: '300px'}}></div>
+          <div id="districtsMap" style={{top: '10px', height: '310px'}}></div>
         </Card.Body>
       </Card>
     )

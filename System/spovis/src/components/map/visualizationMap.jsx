@@ -145,7 +145,7 @@ class VisualizationMap extends Component {
     return (
       <Card>
         <Card.Body>
-          <div id='visualMap' style={{height: '290px'}}></div>
+          <div id='visualMap' style={{height: '320px'}}></div>
         </Card.Body>
       </Card>
     )

@@ -13,6 +13,7 @@ class SearchCity extends Component {
               <InputGroup.Text id="btnGroupAddon">City</InputGroup.Text>
             </InputGroup.Prepend>
             <FormControl
+              id="searchCityBtn"
               type="text"
               placeholder="Search Target City"
               aria-label="Input group example"

@@ -68,7 +68,7 @@ class DistributionMap extends Component {
     return (
       <Card>
         <Card.Body>
-          <div id="distributionMap" style={{ height: '290px'}}></div>
+          <div id="distributionMap" style={{ height: '320px'}}></div>
         </Card.Body>
       </Card>
     )

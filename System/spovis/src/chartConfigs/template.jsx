@@ -1,8 +1,7 @@
 // Chart Config for Single Chart
-// which is shown in Figure 3-17
 export default function() {
-  const config = {
+  const option = {
     
   }
-  return config;
+  return option;
 }

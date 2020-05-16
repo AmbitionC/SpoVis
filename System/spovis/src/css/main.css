@@ -42,6 +42,10 @@
   font-size: 0.8rem;
 }
 
+#searchCityBtn {
+  padding: 0.375rem 1.2rem !important;
+}
+
 .upload {
   margin-top: 14px;
 }
@@ -106,8 +110,8 @@ body {
 /* Map区域 */
 #l7_amap_div0 {
   top: 8px !important;
-  height: 290px !important;
-  width: 395px !important;
+  height: 95.5% !important;
+  width: 96.5% !important;
 }
 
 /********** Home界面 **********/
