@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Card } from 'react-bootstrap';
+import { Button } from 'antd';
+import FactorArea from '../components/factorInfo/factorsArea.jsx';
 
 class FactorsInfo extends Component {
   render() {
@@ -7,11 +9,10 @@ class FactorsInfo extends Component {
       <Card>
         <Card.Header>
           <h4>Factors Viusalization Area</h4>
+          <Button icon="double-right" />
         </Card.Header>
         <Card.Body>
-          <div className='row'>
-            
-          </div>
+          <FactorArea />
         </Card.Body>
       </Card>
     )

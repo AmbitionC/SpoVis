@@ -3,21 +3,21 @@ export default function() {
   const option = {
     xAxis: {
       type: 'category',
-      data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+      data: ['Gym', 'Table tennis', 'BadMinton', 'Billiard', 'Volleyball', 'Basketball Court', 'Pool']
     },
     yAxis: {
       show: false,
     },
     grid: [{
-      x: '1%', y: '2%', width: '95%', height: '80%'
+      x: '5%', y: '0%', width: '90%', height: '80%'
     }],
     series: [{
-      data: [120, 200, 150, 80, 70, 110, 130],
+      data: [192, 54, 252, 76, 38, 234, 27],
       type: 'bar',
+      itemStyle: {
+        color: '#F6CECE'
+      },
       showBackground: true,
-      backgroundStyle: {
-        color: 'rgba(220, 220, 220, 0.8)'
-      }
     }]
   };
   return option;
