@@ -10,7 +10,10 @@ export default function() {
     },
     yAxis: {
       type: 'category',
-      data: ['Equipments', 'Gym', 'Courts', 'Stadium']
+      data: ['Equipments', 'Gym', 'Courts', 'Stadium'],
+      axisLabel: {
+          show: false
+      }
     },
     series: [
       {
